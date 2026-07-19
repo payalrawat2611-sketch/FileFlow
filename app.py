@@ -114,9 +114,9 @@ Built using
 
 if option == "Create File":
 
-    st.subheader("✨ Create New File")
+    st.subheader("✨ Create a New File")
 
-    filename = st.text_input("File Name")
+    filename = st.text_input("Please Enter the File Name")
 
     content = st.text_area("Content")
 
@@ -247,11 +247,11 @@ elif option == "Delete File":
 
             path.unlink()
 
-            st.success("Deleted Successfully")
+            st.success("File has been Deleted Successfully")
 
         else:
 
-            st.error("File not found")
+            st.error("File not found !!")
 
 # ===========================================================
 # Footer
