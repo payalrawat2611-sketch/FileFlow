@@ -125,7 +125,7 @@ if option == "Create File":
         path = BASE_DIR / filename
 
         if path.exists():
-            st.error("File already exists.")
+            st.error("File already exists. Use Diffrent File or Create New ")
 
         else:
             with open(path, "w") as f:
