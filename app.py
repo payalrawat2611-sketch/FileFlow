@@ -691,7 +691,7 @@ if search:
 
     else:
 
-        st.error("No matching files found.")
+        st.error("No matchings are found.")
 
 
 # =====================================================
